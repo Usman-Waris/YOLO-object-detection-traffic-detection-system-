@@ -25,7 +25,7 @@ if uploaded_video:
         f.write(uploaded_video.read())
     
     if os.path.exists(temp_file_path):
-        # --- Storage & Metrics (Updated Labels to Match YOLO Classes) ---
+        # --- Storage & Metrics 
         unique_ids = {
             "car": set(), 
             "person": set(), 
@@ -123,7 +123,7 @@ if uploaded_video:
             st.table(summary_df)
 
         with tab2:
-            st.write("Video ke doran traffic density ka graph:")
+            st.write("Traffic Density Graph:")
             full_chart_df = pd.DataFrame(chart_data)
             if not full_chart_df.empty:
                 st.area_chart(full_chart_df.set_index("Frame"))
