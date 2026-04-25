@@ -1,7 +1,7 @@
 An end-to-end Computer Vision-powered traffic analysis system that converts raw video streams into meaningful, real-time insights. This project leverages modern object detection techniques to monitor, analyze, and visualize traffic patterns efficiently.
 
 🚀 **Try the Live App:**  
-👉 [Click here to launch the app](https://4yxmjv9nmatreqyrohx4hy.streamlit.app/)
+👉 [Click here to launch the app](https://empefqwfmzdmbeujjtparu.streamlit.app/)
 
 🚀 Overview
 
